@@ -18,13 +18,6 @@ ANIMALS = [
         "species": "Dog",
         "locationId": 1,
         "customerId": 2
-    },
-    {
-        "id": 3,
-        "name": "Blue",
-        "species": "Cat",
-        "locationId": 2,
-        "customerId": 1
     }
 ]
 
@@ -219,3 +212,5 @@ def update_animal(id, new_animal):
     else:
         # Forces 204 response by main module
         return True
+
+#test
